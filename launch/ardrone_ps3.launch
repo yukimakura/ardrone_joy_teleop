@@ -1,4 +1,5 @@
 <launch>
     <node name="ps3_joy_node" pkg="joy" type="joy_node" />
-    <node name="ardrone_ps3_con_node" pkg="ardrone_ps3_con" type="ardrone_ps3_con_node" />
+    <rosparam command="load" file="$(find ardrone_joy_teleop)/config/ps3_melodic_keymap.yaml"/>
+    <node name="ardrone_joy_teleop_node" pkg="ardrone_joy_teleop" type="ardrone_joy_teleop_node" output="screen" />
 </launch>

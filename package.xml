@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>ardrone_ps3_con</name>
+  <name>ardrone_joy_teleop</name>
   <version>0.0.1</version>
-  <description>The ardrone_ps3_con package</description>
+  <description>The ardrone_joy_teleop package</description>
 
   <maintainer email="yukimakura86@gmail.com">yukimakura</maintainer>
 
